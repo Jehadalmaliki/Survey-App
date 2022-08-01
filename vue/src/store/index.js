@@ -8,4 +8,5 @@ const store=createStrore(options, {
   modules:{}
 })
 
+
 export default store;
