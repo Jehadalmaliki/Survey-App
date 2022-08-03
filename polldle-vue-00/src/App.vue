@@ -1,10 +1,7 @@
-<script setup >
+<script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
-import {mapState} from 'vuex'
-
-
 </script>
 
 <template>
@@ -16,7 +13,6 @@ import {mapState} from 'vuex'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <pre>{{ user }}</pre>
   <HelloWorld msg="Vite + Vue" />
 </template>
 
