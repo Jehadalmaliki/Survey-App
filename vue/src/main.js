@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 
-import './input.css'
+import './index.css'
 import App from './App.vue'
 
 createApp(App)
