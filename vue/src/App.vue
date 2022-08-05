@@ -8,9 +8,10 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
- 
-  <pre>{{ user }}</pre>
-  <HelloWorld msg="Vite + Vue" />
+
+
+  <router-view></router-view>
+
 </template>
 
 <style scoped>
